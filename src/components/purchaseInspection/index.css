@@ -1,0 +1,55 @@
+.pre-purchase-inspection-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+ 
+  }
+  
+  .pre-purchase-inspection-container h1 {
+    text-align: center;
+    color: #2b9944;
+    margin-bottom: 20px;
+  }
+  
+  .pre-purchase-inspection-container h2 {
+    /* color: #007bff; */
+    margin-bottom: 15px;
+  }
+  
+  .pre-purchase-inspection-container h3 {
+    /* color: #555; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pre-purchase-inspection-container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .pre-purchase-inspection-container ul {
+    margin-left: 20px;
+    color: #666;
+  }
+  
+  .pre-purchase-inspection-container ul li {
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .pre-purchase-inspection-container {
+      padding: 15px;
+    }
+  
+    .pre-purchase-inspection-container   h1 {
+      font-size: 1.5em;
+    }
+  
+    .pre-purchase-inspection-container  h2,.pre-purchase-inspection-container h3 {
+      font-size: 1.2em;
+    }
+  }
+  

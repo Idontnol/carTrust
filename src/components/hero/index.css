@@ -1,0 +1,94 @@
+/* Set up a background image with an overlay */
+.background-image23 {
+    background-image: url('carbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* position: relative; */
+  }
+  .home-page{
+    height:auto;
+    /* padding-top:20px; */
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  overlay h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .service-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 270px; /* Fixed width */
+    text-align: left;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card h2{
+    text-align:center;
+  }
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  }
+  .service-card ul {
+    list-style-type: disc; /* Use bullets */
+    padding-left: 20px; /* Indent the list */
+    margin: 10px 0; /* Spacing above and below the list */
+    color: #555; /* Text color for the bullet points */
+  }
+  
+  .service-card ul li {
+    margin-bottom: 8px; 
+  }
+  
+  .service-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-card p {
+    margin-bottom: 15px; /* Slightly reduced margin for better spacing */
+    font-size: 1em; /* Set to a standard font size */
+    color: #555;
+  }
+  
+  .service-card a,.service-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align:center;
+    margin-top:auto;
+    border:none;
+    display: block; 
+      margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-card a:hover {
+    background-color: #0056b3;
+  }
+  

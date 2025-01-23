@@ -1,0 +1,115 @@
+.car-insurance-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+   
+    height:500px;
+  }
+  
+  .car-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .car-image img {
+    max-width: 80%;
+    border-radius: 8px;
+  }
+  
+  .insurance-form {
+    flex: 1;
+  }
+  
+  .insurance-form h1 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+ .insurance-form p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .form-group67 {
+    margin-bottom: 15px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .insurance-banner{
+    max-width: 80%;
+  }
+  
+  .form-group67 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group67 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .form-group67 input:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .renew-button {
+    background-color: #28a745; /* Green color for renew */
+  }
+  
+  .get-price-button {
+    background-color: #007bff; /* Blue color for get price */
+  }
+  
+  .renew-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .get-price-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .car-insurance-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .car-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .insurance-form {
+      width: 100%;
+    }
+    .insurance-banner{
+        max-width: 100%;
+      }
+  }
+  
